@@ -13,7 +13,7 @@ export const Header: React.FC<HeaderProps> = ({ className }) => {
   return (
     <header className={st(classes.root, className)}>
       <h1 className={classes.title}>
-        <Button>Click me!</Button>;
+        <Button>Click me!</Button>
       </h1>
     </header>
   );
